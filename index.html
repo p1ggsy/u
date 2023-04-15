@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Deep Root Interactive</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <h1 class="title">Посібник по створенню Українізатора</h1>
+    <h3>by Piggsy</h3>
+    <br>
+    <hr>
+    <h1>Перші кроки</h1><center>
+    <img src="https://i.ibb.co/3RMwF0Y/result-4.gif" alt="result-4" border="0" style="width: 40vw; min-width: 200px;"></center>
+
+<div align="center"><span style="font-weight: bold">●Тема для новачків, які навіть уявлення не мають як це все працює. Тема буде оновлюватись та доповнюватись.</span></div>
+<br>
+<div align="center">
+<br><span style="font-weight: bold">
+●Насамперед варто з'ясувати на якому рушії створена гра.
+<br>
+Як це зробити? Спочатку гуглимо, якщо потрібної нам інформації знайти не вдалось, переходимо в теку з грою і дивимось на структуру файлів.</span>
+<br><hr>
+<details>
+    <summary>Unity</summary>
+<img src="https://i.ibb.co/pd7vPgm/image.png" alt="image" border="0"><br>
+<br>
+     <span style="font-weight: bold">●Так виглядає гра на Unity (є тека <span style="color: Green">#Назва_Гри#_data</span>)</span>:
+<br><img src="https://img.hurtom.com/i/2023/02/unity.png" border="0" alt=""><hr>
+<br>
+<hr>
+<br>
+    Дивимось чи у теці гри немає файлів, як можуть містити текст <span style="font-weight: bold">(.txt .csv .xml)</span>, якщо є, то просто відкриваємо їх відповідними програмами <span style="font-weight: bold">(Excel, Notepad++)</span>
+<br>
+    А якщо немає, то відкриваємо програму <span style="font-weight: bold">UnityAssetBundleExtractor</span>, в ній відкриваємо файли що містять розширення <span style="font-weight: bold">.assets</span> та шукаємо компонент, який може містити текст <span style="font-weight: bold">(Localization, Language)</span>
+<br>
+<a href="https://img.hurtom.com/image/HTiZ" class="postlink"><img src="https://img.hurtom.com/i/2023/02/2023-02-09-21_36_12.md.png" border="0" alt=""></a>
+<br>
+<hr>
+<br>
+Експортуємо цей файл за допомогою кнопки <span style="text-decoration: underline"><span style="font-weight: bold">Export Raw</span></span>
+<br>
+Далі відкриваємо <span style="font-weight: bold">Unity Text 2</span> (<span style="font-weight: bold"><span style="color: Red">Це кацапська програма!</span></span>)
+<br>
+Вказуємо теку з нашим файлом (головне щоб у ній окрім нашого файлу нічого не було) і тиснемо OK
+<br>
+Після цього (якщо у вас правильно налаштована програма) на екрані з'явиться текст який ви можете редагувати
+<br>
+<a href="https://img.hurtom.com/image/HTiY" class="postlink"><img src="https://img.hurtom.com/i/2023/02/2023-02-09-21_48_31.md.png" border="0" alt=""></a>
+<br>
+<hr>
+<br>
+Як закінчите редагувати текст, тисніть кнопку <span style="font-weight: bold"><span style="text-decoration: underline">Pack</span></span>
+<br>
+Повертаємось до <span style="font-weight: bold">UnityAssetBundleExtractor</span> і натискаємо <span style="text-decoration: underline"><span style="font-weight: bold">Import Raw</span></span> та імпортуємо наш файл. Зберігаємо архів <span style="font-weight: bold">(File -&gt; Apply and Save All)</span> <div class="spoiler-wrap"><hr>  
+<details>
+    <summary>Результат:</summary>
+<a href="https://img.hurtom.com/image/HTiG" class="postlink"><img src="https://img.hurtom.com/i/2023/02/Cuphead-Screenshot-2023.02.09---21.54.58.47.md.png" border="0" alt=""></a>
+</details><hr>
+<details>
+    <summary>Машинний Переклад:</summary>
+Можна в реальному часі перекласти гру через перекладач. Читайте посібник:
+<a target="_blank" rel="nofollow" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2419527586" class="postLink">https://steamcommunity.com/sharedfiles/filedetails/?id=2419527586</a>
+
+</details><hr>
+</details>
+    <br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>  
