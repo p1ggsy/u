@@ -1,0 +1,69 @@
+/* Налаштування шрифту */
+body {
+  font-family: Calibri, sans-serif;
+  font-size: 16px;
+}
+
+/* Стилізація спойлерів */
+details {
+  background-color: #eee;
+  color: #444;
+  cursor: default;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+}
+
+summary {
+  font-weight: bold;
+}
+
+details[open] {
+  background-color: #ddd;
+}
+
+/* Сховання вмісту */
+details > *:not(summary) {
+
+}
+
+/* Показ вмісту при розгортанні */
+details[open] > *:not(summary) {
+    margin-top: 20px;
+
+}
+
+
+b {
+  display: inline;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  width: 100%;
+  background-color: #666666;
+  margin: 20px 0;
+}
+
+
+
+/* Додаткові стилі для кращого відображення */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+footer {
+  font-size: 12px;
+  margin-top: 20px;
+  text-align: center;
+  color: #777;
+}
+footer span {
+  color: #333;
+}
