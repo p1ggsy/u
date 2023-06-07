@@ -1,0 +1,186 @@
+/* Налаштування шрифту */
+body {
+  font-family: Calibri, sans-serif;
+  font-size: 16px;
+  background: #ECECEC;
+}
+
+
+
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #539fc5;
+}
+
+::selection {
+    color: white;
+  background: #539fc5;
+}
+
+
+
+a.five:link {
+    color: #539fc5;
+    text-decoration: none;
+}
+
+a.five:visited {
+    color: #539fc5;
+    text-decoration: none;
+}
+
+a.five:hover {
+  background:#5DADE2;
+  color:#fff;
+}
+span.five {
+  background:#5DADE2;
+  color:#000;
+}
+b span { 
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+code {
+    background-color: #2f3237;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
+}
+pre {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #f36d33;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+
+
+
+
+/* Стилізація спойлерів */
+details {
+  background-color: #E1E1E1;
+  color: #444;
+  cursor: default;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  user-select: none
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none
+}
+
+details[open] {
+  background-color: #ddd;
+}
+
+/* Сховання вмісту */
+details > *:not(summary) {
+
+}
+
+/* Показ вмісту при розгортанні */
+details[open] > *:not(summary) {
+    margin-top: 20px;
+
+}
+
+
+b {
+  display: inline;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  width: 100%;
+  background-color: #666666;
+  margin: 20px 0;
+}
+
+
+
+/* Додаткові стилі для кращого відображення */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            user-select: none
+        }
+footer span {
+  color: #fff;
+  text-align: center;
+  user-select: none
+}
+
+
+
+/* CSS */
+.button-13 {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Roboto",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+
+}
+
+.button-13:hover {
+  background-color: #f7fafa;
+}
+
+.button-13:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
